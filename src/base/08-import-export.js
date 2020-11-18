@@ -1,4 +1,4 @@
- import  heroes, {owners}   from '../data/heroes';
+ import  heroes   from '../data/heroes';
 
  //console.log(owners);
 //console.log(heroes);
@@ -14,6 +14,6 @@ const getHeroesByOwner = ( owner ) => ( heroes.filter( (heroe) => heroe.owner ==
 // console.log(getHeroesByOwner('Marvel'));
 
 export {
-    getHeroeById  as default,
+    getHeroeById,
     getHeroesByOwner
 };
